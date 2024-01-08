@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbox.css">  
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li> 
+
+                <!-----User-profile-------->
+
+                <img src="img/2.png" class="user-pic" onclick="toggleMenu()">
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="img/2.png" class="user-pic">
+                            <h3>Karuna Runjula</h3>
+                        </div>
+                        <hr>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/profile.png">
+                            <p onclick="window.location.href='edit-profile.html';">User Profile</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/setting.png">
+                            <p>Setting & Privacy</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/help.png">
+                            <p>Help & Support</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/logout.png">
+                            <p>Logout</p>
+                            <span></span>
+                        </a>
+                
+                    </div>
+                </div>
+                
+               
+            </ul>
+        </div>
+        
+        
+        <div id="mobile-menu">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="mobile-menu-icon" class="fas fa-outdent"></i>
+        </div>
+
+        <div id="mobile-nav">
+            <ul id="navbar-mobile">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li> 
+                <a href="#" id="close-mobile"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div> 
+
+
+        
+
+    </section>
+
+    <section id="hero">
+        
+        <h4>New-season-styles</h4>
+        <h2>Sale iconic fashion</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+        <button class="green">Shop Now</button>
+            
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img\k1.png" alt="">
+            <h6>Free Shopping</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img\k2.png" alt="">
+            <h6>Online Order</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img\k3.png" alt="">
+            <h6>Save Money</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img\k4.png" alt="">
+            <h6>Pramotions</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img\k5.png" alt="">
+            <h6>Happy Sell</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img\k6.png" alt="">
+            <h6>Support</h6>
+
+        </div>
+
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Bestselling Styles</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img\t1.jpeg" alt="">
+                <div class="des">
+                    <span>Walmart</span>
+                    <h5>YOTAMI Men's Tops Fashion</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹782</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t11.jpg" alt="">
+                <div class="des">
+                    <span>Walmart</span>
+                    <h5>YOTAMI Men's Tops Fashion</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      
+                    </div>
+                    <h4>₹782</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t12.jpg" alt="">
+                <div class="des">
+                    <span>Walmart</span>
+                    <h5>YOTAMI Men's Tops Fashion</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹782</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t13.jpg" alt="">
+                <div class="des">
+                    <span>Walmart</span>
+                    <h5>YOTAMI Men's Tops Fashion</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹782</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t2.webp" alt="">
+                <div class="des">
+                    <span>Etsy</span>
+                    <h5>Trousers Men Festival Outfits</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹650</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t21.jpg" alt="">
+                <div class="des">
+                    <span>Etsy</span>
+                    <h5>Trousers Men Festival Outfits</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹650</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t22.jpeg" alt="">
+                <div class="des">
+                    <span>Etsy</span>
+                    <h5>Trousers Men Festival Outfits</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹650</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t23.jpg" alt="">
+                <div class="des">
+                    <span>Etsy</span>
+                    <h5>Trousers Men Festival Outfits</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹650</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+     
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>70% off </span> - All t-Shirts & Accessories</h2>
+        <button class="normal">Explore More</button>
+
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Sale Of The Season</h2>
+        <p>Brace Yourself For The Biggest Shopping Spree</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img\t3.jpg" alt="">
+                <div class="des">
+                    <span>jollify</span>
+                    <h5>Casual Sleeve Women Tops</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹556</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+            
+            <div class="pro">
+                <img src="img\t31.jpg" alt="">
+                <div class="des">
+                    <span>jollify</span>
+                    <h5>Casual Sleeve Women Tops</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹556</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t32.jpg" alt="">
+                <div class="des">
+                    <span>jollify</span>
+                    <h5>Casual Sleeve Women Tops</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹556</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t33.jpeg" alt="">
+                <div class="des">
+                    <span>jollify</span>
+                    <h5>Casual Sleeve Women Tops</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹556</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t4.jpeg" alt="">
+                <div class="des">
+                    <span>javkawaii</span>
+                    <h5>Women Cartoon Print Hoodie</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹799</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t41.jpeg" alt="">
+                <div class="des">
+                    <span>javkawaii</span>
+                    <h5>Women Cartoon Print Hoodie</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹799</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct5.html';">
+                <img src="img\t42.jpg" alt="">
+                <div class="des">
+                    <span>javkawaii</span>
+                    <h5>Women Cartoon Print Hoodie</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹799</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img\t43.jpeg" alt="">
+                <div class="des">
+                    <span>javkawaii</span>
+                    <h5>Women Cartoon Print Hoodie</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹799</h4>
+                </div>
+                <a href="#"><i class="fi fi-rr-shopping-cart-add cart"></i></a>
+            </div>
+
+            
+        
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+           <h2>buy one get 1 free</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Learn More</button>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>upcoming season</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Collection</button>
+        </div>
+
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box"> 
+            <h2>SEASONAL SALE</h2>
+            <h3>Winter Collection -50% OFF</h3> 
+        </div>
+
+        <div class="banner-box banner-box2"> 
+            <h2>NEW <span>FOOTWEAR</span> COLLECTION</h2>
+            <h3>spring/summer 2022</h3> 
+        </div>
+
+        <div class="banner-box banner-box3"> 
+            <h2>T-SHIRTS</h2>
+            <h3>New Trendy Prints</h3> 
+        </div>
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img\logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>RGUKT,Nuzvid</p>
+            <p><strong>E-mail:</strong> rkarunakumari32@gmail.com</p>
+            <p><strong>Hours:</strong>10.00-18:00,Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Whishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img\app.jpg" alt="">
+                <img src="img\play.jpg" alt="">
+
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img\pay.png" alt="">
+
+        </div>
+
+        <div class="copyright">
+            <p>Ⓒ 2023, RkElegance - HTML CSS E-commerce shop</p>
+
+        
+        </div>
+
+    </footer>
+
+    <!----------chatbox------------->
+
+    <div class="chatbox-wrapper">
+        <div class="chatbox-toggle">
+            <i class='bx bx-message-dots'></i>
+        </div>
+        <div class="chatbox-message-wrapper">
+            <div class="chatbox-message-header">
+                <div class="chatbox-message-profile">
+                    <img src="img/3.png" alt="" class="chatbox-message-image">
+                    <div>
+                        <h4 class="chatbox-message-name">RkElegance Team</h4>
+                        <p class="chatbox-message-status">online</p>
+                    </div>
+                </div>
+                <div class="chatbox-message-dropdown">
+                    <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle'></i>
+                    <ul class="chatbox-message-dropdown-menu">
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="#">Report</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chatbox-message-content">
+                <h4 class="chatbox-message-no-message">You don't have messages yet!</h4>
+            </div>
+            <div class="chatbox-message-bottom">
+                <form action="#" class="chatbox-message-form">
+                    <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+                    <button type="submit" class="chatbox-message-submit"><i class='bx bx-send'></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="user.js"></script>
+    <script src="chatbox.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Ecommerce Website</title>
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style2.css">
+          
+    </head>
+    <body>
+
+        <div class="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+            <li><a href="index.html">BackTo Home</a></li>
+            <div class="carts"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">$ 0.00</h2>
+                </div>
+                <label id="place-order-btn" onclick="window.location.href='PlaceOrder-progressbar.html';">Place Order</label>
+            </div>
+        </div>
+
+    <!------Script ------->
+    <script src="script2.js"></script>
+    </body>
+</html>

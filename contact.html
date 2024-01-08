@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img\logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+
+                <!-----User-profile-------->
+
+                <img src="img/2.png" class="user-pic" onclick="toggleMenu()">
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="img/2.png" class="user-pic">
+                            <h3>Karuna Runjula</h3>
+                        </div>
+                        <hr>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/profile.png">
+                            <p onclick="window.location.href='edit-profile.html';">User Profile</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/setting.png">
+                            <p>Setting & Privacy</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/help.png">
+                            <p>Help & Support</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="img/logout.png">
+                            <p>Logout</p>
+                            <span></span>
+                        </a>
+                
+                    </div>
+                </div>
+                
+                
+
+            </ul>
+        </div>
+
+        <div id="mobile-menu">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="mobile-menu-icon" class="fas fa-outdent"></i>
+        </div>
+        <div id="mobile-nav">
+            <ul id="navbar-mobile">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li> 
+                <a href="#" id="close-mobile"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div> 
+
+    </section>
+
+    <section id="page-header" class="about-header">
+        
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, WE love to hear from you</p>
+            
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    <p>location </p>
+                </li>
+
+                <li>
+                    <i class="far fa-envelope"></i>
+                    <p> contact@example.com</p>
+                </li>
+
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p> contact@example.com</p>
+                </li>
+
+                <li>
+                    <i class="far fa-clock"></i>
+                    <p> Monday to Saturday: 9.00am to 16.pm</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.712251596!2d80.81824077427883!3d16.790985719714005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3675e53fa3b4fb%3A0xfd1e193c90e4643!2sRajiv%20Gandhi%20University%20of%20Knowledge%20and%20Technology%20%2C%20Nuzvid!5e0!3m2!1sen!2sin!4v1693567842808!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="your name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+
+        <div class="people">
+           
+            <div>
+                <img src="img/1.png" alt="">
+                <p><span>Karuna Runjula</span>Address: RGUKT SKLM,Nuzvid</Address> <br>Email: rkarunakumari32@gmail.com</p>
+
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img\logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>RGUKT,Nuzvid</p>
+            <p><strong>E-mail:</strong> rkarunakumari32@gmail.com</p>
+            <p><strong>Hours:</strong>10.00-18:00,Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Whishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img\app.jpg" alt="">
+                <img src="img\play.jpg" alt="">
+
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img\pay.jpg" alt="">
+
+        </div>
+
+        <div class="copyright">
+            <p>Ⓒ 2023, RkElegance - HTML CSS E-commerce shop</p>
+
+        
+        </div>
+
+    </footer>
+
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+    </script>
+
+
+    <script src="script.js"></script>
+    <script src="user.js"></script>
+</body>
+</html>
